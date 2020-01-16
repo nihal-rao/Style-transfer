@@ -3,7 +3,7 @@ An end to end tool for artistic style transfer using neural networks.
 
 **Original Image:**
 
-![](rd_imgs/tubingen_rd.jpg "ORORORORORO")
+![](rd_imgs/tubingen_rd.jpg)
 
 **Style Image:**
 
@@ -11,7 +11,7 @@ An end to end tool for artistic style transfer using neural networks.
 
 **Result:**
 
-![](result.jpg)
+![](rd_imgs/result.v2.jpg)
 
 # How it Works:
 We take two images, and produce a new image that reflects the content of one but the artistic "style" of the other. This is done by using loss functions that match the content and style of each respective image in the feature space of a deep network, and then performing gradient descent on the pixels of the image itself.
