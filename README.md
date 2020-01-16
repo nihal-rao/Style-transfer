@@ -11,7 +11,7 @@ An end to end tool for artistic style transfer using neural networks.
 
 **Result:**
 
-![](rd_imgs/result.jpg)
+![](result.jpg)
 
 # How it Works:
 We take two images, and produce a new image that reflects the content of one but the artistic "style" of the other. This is done by using loss functions that match the content and style of each respective image in the feature space of a deep network, and then performing gradient descent on the pixels of the image itself.
@@ -30,4 +30,4 @@ SqueezeNet, a DNN model that has been trained on ImageNet is used as a feature e
 * In the run.py main function, set the paths of the source image and the style image.
 * Set the path where you wsnt the result to be stored.
 * Execute the run.py script
-* Voila! Try changing the hyperparameters in the main function ;)
+* Voila! Now try changing the hyperparameters in the main function ;)
