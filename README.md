@@ -28,6 +28,6 @@ SqueezeNet, a DNN model that has been trained on ImageNet is used as a feature e
 
 **How to use it:**
 * In the run.py main function, set the paths of the source image and the style image.
-* Set the path where you wsnt the result to be stored.
+* Set the path where you wish the result to be stored.
 * Execute the run.py script
 * Voila! Now try changing the hyperparameters in the main function ;)
